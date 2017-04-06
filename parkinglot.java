@@ -87,7 +87,7 @@ public class parkinglot {
         if (this.myConditions.isEmpty()) {
             return "No conditions specified for this parking lot.";
         }else {
-            //x = "Conditions are: ";
+            x = "Conditions are: ";
             for (int i = 0; i < this.myConditions.size(); i++) {
                 if (i == this.myConditions.size() - 1) {
                     x += (this.myConditions.get(i));
