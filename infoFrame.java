@@ -60,8 +60,6 @@ public class infoFrame extends JFrame {
     }
     
     public static void main(String[] args) {
-        infoFrame bayside1 = new infoFrame();
-        
+        infoFrame bayside1 = new infoFrame();    
     }
-    
 }
